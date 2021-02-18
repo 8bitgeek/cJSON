@@ -48,6 +48,7 @@
     #include <caribou/lib/stdint.h>
     #include <caribou/lib/heap.h>
     #define DBL_EPSILON 2.2204460492503131e-16
+    #define tolower(c) ((c)>='A'&&(c)<='Z')?((c)+0x20):(c)
 #else
     #include <string.h>
     #include <stdio.h>
